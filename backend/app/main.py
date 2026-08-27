@@ -20,8 +20,7 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
 import httpx
 
-from engine import detect_columns, analyze_transactions
-
+from app.engine import detect_columns, analyze_transactions
 app = FastAPI(title="Pulse BI Analysis Engine")
 
 # Allow requests from your deployed frontend. Set FRONTEND_URL as an env var
