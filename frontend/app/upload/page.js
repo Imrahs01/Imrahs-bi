@@ -87,8 +87,7 @@ export default function UploadPage() {
   return (
     <div style={{ maxWidth: 640, margin: "40px auto", padding: 24 }}>
       <h1 style={{ fontSize: 22, marginBottom: 4 }}>Upload your business data</h1>
-      <p style={{ color: "#7C8797", fontSize: 14, marginBottom: 24 }}>
-        A CSV or Excel export of your sales/transactions works best. Pulse will auto-detect what each column means.
+      <p style={{ color: "#7C8797", fontSize: 14, marginBottom: 24 }}>A CSV or Excel export of your sales/transactions works best. Vantage will auto-detect what each column means..
       </p>
 
       {step === "select" && (
