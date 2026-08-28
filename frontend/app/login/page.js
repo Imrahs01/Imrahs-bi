@@ -24,9 +24,9 @@ export default function LoginPage() {
 
   return (
     <div style={{ maxWidth: 380, margin: "80px auto", padding: 24 }}>
-      <h1 style={{ fontSize: 22, marginBottom: 4 }}>Pulse</h1>
+<h1 style={{ fontSize: 22, marginBottom: 4 }}>Vantage</h1>
       <p style={{ color: "#7C8797", marginBottom: 24, fontSize: 14 }}>
-        AI Business Intelligence — sign in with your email, no password needed.
+        Your solution for business growth — sign in with your email, no password needed.
       </p>
 
       {sent ? (
