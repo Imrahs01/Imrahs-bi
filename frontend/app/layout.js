@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Pulse — AI Business Intelligence",
+  title: "Vantage — Your Solution for Business Growth",
   description: "Upload your business data and get instant KPIs, risk signals, and an AI analyst.",
 };
 
