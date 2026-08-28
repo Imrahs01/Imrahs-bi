@@ -85,8 +85,7 @@ export default function DashboardPage() {
     <div style={{ minHeight: "100vh", paddingBottom: 100 }}>
       <div style={{ padding: "18px", borderBottom: `1px solid ${COLORS.border}`, display: "flex",
         justifyContent: "space-between", alignItems: "center" }}>
-        <div>
-          <div style={{ fontWeight: 700, fontSize: 17 }}>{data.business_name || "Pulse"}</div>
+        <div><div style={{ fontWeight: 700, fontSize: 17 }}>{data.business_name || "Vantage"}</div>
           <div style={{ fontSize: 11, color: COLORS.muted }}>{data.row_count} rows analyzed</div>
         </div>
         <button onClick={() => router.push("/upload")} style={{ ...buttonStyle, padding: "6px 12px", fontSize: 12 }}>
@@ -189,7 +188,7 @@ export default function DashboardPage() {
       {chatOpen && (
         <div style={{ position: "fixed", inset: 0, background: COLORS.bg, zIndex: 30, display: "flex", flexDirection: "column" }}>
           <div style={{ display: "flex", justifyContent: "space-between", padding: 16, borderBottom: `1px solid ${COLORS.border}` }}>
-            <strong>Ask Pulse</strong>
+            <strong>Ask Vantage</strong>
             <button onClick={() => setChatOpen(false)} style={{ background: "none", border: "none", color: COLORS.muted, cursor: "pointer" }}>✕</button>
           </div>
           <div ref={scrollRef} style={{ flex: 1, overflowY: "auto", padding: 16, display: "flex", flexDirection: "column", gap: 10 }}>
